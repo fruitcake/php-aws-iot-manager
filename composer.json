@@ -1,0 +1,20 @@
+{
+    "name": "fruitcake/aws-iot-manager",
+    "description": "AWS IoT Manager",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fruitcake",
+            "email": "barry@fruitcake.nl"
+        }
+    ],
+    "require": {
+        "php": ">=7",
+        "aws/aws-sdk-php": "^3.63"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fruitcake\\AwsIot\\": "src/"
+        }
+    }
+}
